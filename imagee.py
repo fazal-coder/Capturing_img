@@ -29,6 +29,7 @@ def store_Off():
 def capturing(param):
     if param:
         now_time = datetime.datetime.now().strftime("%H_%M_%S")
+        print(f"Capture:{now_time}")
         get_blue(now_time)
 
 if __name__ == "__main__":
